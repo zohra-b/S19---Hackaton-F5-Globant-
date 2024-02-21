@@ -28,10 +28,10 @@ const Footer = () => {
       <div className="socials">
         <p className="socials-text">¿Aburrido? ¡Nuestras redes sociales son la solución!</p>
         <div className="icons">
-          <img src="" alt="Facebook" />
-          <img src="" alt="Instagram" />
-          <img src="" alt="LinkedIn" />
-          <img src="" alt="YouTube" />
+            <img src="../images/Facebook.png" alt="Facebook" />
+            <img src="../images/Instagram.png" alt="Instagram" />
+            <img src="../images/LinkedIn.png" alt="LinkedIn" />
+            <img src="../images/YouTube.png" alt="YouTube" />
         </div>
       </div>
       <div className="copyright">
