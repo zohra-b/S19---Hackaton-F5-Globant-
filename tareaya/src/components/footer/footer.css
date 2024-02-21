@@ -1,6 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
 .footer {
     background-color: #1A3750;
     color: #FFFDEC;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -9,6 +18,7 @@
   .column {
     display: flex;
     flex-direction: column;
+    text-align: left;
   }
   
   .title {
@@ -17,6 +27,7 @@
   
   .list {
     color: #9AD0C2;
+    list-style-type: none;
   }
   
   .socials {
