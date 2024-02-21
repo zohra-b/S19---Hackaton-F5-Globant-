@@ -34,11 +34,15 @@ This project is a web application built using React for the front end and PHP fo
 
 2. Install frontend dependencies:
 
--npm install
--npm create vite@latest
--npm install react-router-dom
--npm run dev (run in a separate terminal that should not be closed)
--npm install sweetAlert2
+-npm install.
+
+-npm create vite@latest.
+
+-npm install react-router-dom.
+
+-npm run dev (run in a separate terminal that should not be closed).
+
+-npm install sweetAlert2.
 
 
 
@@ -66,10 +70,15 @@ This project is a web application built using React for the front end and PHP fo
 ## Authors
 
 [Laura A.] ()
+
 [Zohra ] (https://github.com/zohra-b)
+
 [Laura Artaza] (https://github.com/lolamindi)
+
 [Gabriela Irimia] ()
+
 [Sandra Medina] (https://github.com/sandra-medina-luque)
+
 [Ana Elisa Capellín] (https://github.com/elisacl)
 
 
