@@ -1,3 +1,17 @@
+<?php
+require_once '/xampp/htdocs/S19---Hackaton-F5-Globant-/tareaya/config/database.php';
+
+
+use Config\Database;
+
+// Créer une instance de votre classe Database
+$database = new Database();
+
+// Appeler la méthode connect()
+$database->connect();
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
