@@ -1,0 +1,40 @@
+.footer {
+    background-color: #1A3750;
+    color: #FFFDEC;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    color: #2D9596;
+  }
+  
+  .list {
+    color: #9AD0C2;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .socials-text {
+    color: #FFFDEC;
+  }
+  
+  .icons img {
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    color: #FFFDEC;
+    text-align: center;
+  }
+  
