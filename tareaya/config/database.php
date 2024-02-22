@@ -2,6 +2,7 @@
 
 namespace Config;
 
+
 use PDO;
 use PDOException;
 
@@ -44,7 +45,7 @@ class Database
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             if ($this->conn) {
-                echo "Connexion établie avec succès !";
+                echo "Connected !";
             }
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
