@@ -1,0 +1,45 @@
+
+.header--container {
+    background-color: #9AD0C2;
+    height: 151px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 4rem;
+    color: #1A3750;
+  }
+  
+  .header--LogoTitle--container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .header--Title{
+    font-size: 50px;
+  }
+  
+  .header--Links--container{
+    width: 60%;  
+  }
+  
+  .header--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .background--addTask {
+    background-color: #1A3750;
+    width: 20%;
+    border-radius: 40px;
+    color: #F1FADA;
+  }
