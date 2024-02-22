@@ -2,7 +2,7 @@ import "./header.css";
 import treelog from '../images/treelog.png'
 import image5 from '../images/image 5.png'
 import image6 from '../images/image 6.png'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 
 function Header() {
