@@ -37,11 +37,11 @@ const HomeMain = () => {
                 </div>
             </div>
             <div className="iconshome">
-                <img src={Tools} className="serviceicons" alt="tools" />
-                <img src={OpenParcel} className="serviceicons" alt="openparcel" />
-                <img src={Conflict} className="serviceicons" alt="conflict" />
-                <img src={Plumbing} className="serviceicons" alt="plumbing" />
-                <img src={Housekeeping} className="serviceicons" alt="housekeeping" />
+                <a href="#"><img src={Tools} className="serviceicons" alt="tools" /></a>
+                <a href="#"><img src={OpenParcel} className="serviceicons" alt="openparcel" /></a>
+                <a href="#"><img src={Conflict} className="serviceicons" alt="conflict" /></a>
+                <a href="#"><img src={Plumbing} className="serviceicons" alt="plumbing" /></a>
+                <a href="#"><img src={Housekeeping} className="serviceicons" alt="housekeeping" /></a>
 
             </div>
             <div className="servicedescription">
@@ -93,7 +93,7 @@ const HomeMain = () => {
                                 <p>HUESCA</p>
                             </div>
                         </div>
-                        
+
                     </div>
 
                 </section>
