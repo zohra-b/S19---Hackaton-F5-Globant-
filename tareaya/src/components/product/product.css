@@ -23,7 +23,6 @@
 
 .job {
     display: flex;
-    flex-direction: row;
 }
 
 .star {
@@ -117,15 +116,15 @@ input {
     margin-top: -5px;
 }
 
-.sectiondescription{
+.sectiondescription {
     margin-left: 30px;
 }
 
-.pdescription{
+.pdescription {
     font-size: 35px;
 }
 
-.consumer1{
+.consumer1 {
     width: 95%;
     height: 200px;
     background-color: rgb(234, 244, 209);
@@ -133,16 +132,16 @@ input {
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
-   
+
 }
 
-.farusercircle{
+.farusercircle {
     font-size: 80px;
     margin-left: 20px;
-   
+
 }
 
-.starconsumer{
+.starconsumer {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -151,7 +150,7 @@ input {
     margin-top: -60px;
 }
 
-.textconsumer{
+.textconsumer {
     font-size: 30px;
     margin-top: -20px;
 }
