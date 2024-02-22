@@ -15,6 +15,7 @@ import image1 from '../images/image 1.png'
 import image2 from '../images/image 2.png'
 import image3 from '../images/image 3.png'
 import image4 from '../images/image 4.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -48,7 +49,9 @@ const HomeMain = () => {
                 <p className="textservicedescription">DESCUBRE TALENTOS CON LAS HABILIDADES QUE NECESITAS</p>
                 <section className="ability">
                     <div className="abilitysection">
-                        <img src={image2} alt="electricgirld" />
+                        <Link to="/DetailProduct">
+                            <img src={image2} alt="electricgirld" />
+                        </Link>
                         <div className="cubedescription">
                             <p className="tittlecube">SE OFRECE  <span className="tittlespan"> ELECTRICISTA</span></p>
                             <div className="userdescription">
