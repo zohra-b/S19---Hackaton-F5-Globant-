@@ -50,6 +50,7 @@ $anuncios = getAdds();
       <h3><?= $anuncio['nombre']; ?></h3>
       <h4><?= $anuncio['categoria']; ?></h4>
       <p><?= $anuncio['texto-anuncio']; ?></p>
+      <p><?= $anuncio['precio']; ?>€/hora</p>
       <p><b>Móvil :</b> <?= $anuncio['movil'] ?></p>
       <p><b>E-mail : </b> <?= $anuncio['mail'] ?></p>
     <?php endforeach; ?>
