@@ -15,7 +15,7 @@
 
 ## Overview
 
-This project involved the creation of multiple-page responsive website combining React with Vite, PHP, and MySQL. The site design, as specified by the client, TareaYa, a burgeoning name in the . These include a page featuring cards for all the actors to have featured in the series, a search function for these actors by name, a working contact form, and a hamburger menu in the mobile version. 
+This project involved the creation of multiple-page website combining React with Vite, PHP, and MySQL. The client, TareaYa - an up and coming name in the home-based skills and services market - wanted a fresh new look for their website with a focus on a simple design and an intuitive user flow. The site allows users to browse, favorite, contact and contract services provided by those placing advertisements. Likewise, service providers can upload new advertisements with space to set their price, location, specialities, and more, as well as the possibility to reply to interested users and create the perfect match!
 
 ## Features
 
