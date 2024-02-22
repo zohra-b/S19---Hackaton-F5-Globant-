@@ -1,9 +1,12 @@
 import "./header.css";
 import treelog from '../images/treelog.png'
+import image5 from '../images/image 5.png'
+import image6 from '../images/image 6.png'
 
 
 const Header = () => {
   return (
+  <>
   <header className="header--container">
     <div className="header--LogoTitle--container">
         <img src={treelog}/>
@@ -17,6 +20,13 @@ const Header = () => {
         </ul>
     </div>
   </header>
+  <nav className="nav--container">
+    <ul className="nav--list">
+      <li className="nav--tasks"><img src={image6}/> BUSCAR TAREA</li>
+      <li className="nav--tasks"><img src={image5}/> OFRECER TAREA</li>
+    </ul>
+  </nav>
+  </>
 )};
 
 export default Header;
