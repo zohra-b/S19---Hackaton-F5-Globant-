@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import Footer from '../components/footer/Footer';
+import HomeMain from '../components/homemain/HomeMain';
 
-function App() {
+
+function Home() {
     return (
       <div>
+        <HomeMain/>
         <Footer />
       </div>
     );
@@ -11,4 +14,4 @@ function App() {
   
 
 
-export default App
+export default Home;
