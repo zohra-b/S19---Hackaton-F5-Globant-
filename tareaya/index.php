@@ -7,8 +7,42 @@ use Config\Database;
 
 
 $database = new Database();
-$database->connect();
 
+
+function getUsers()
+{
+  global $database;
+
+  $users = $database->connect()->prepare("SELECT * FROM anunciante");
+  return ($users->execute()) ? $users->fetchAll(PDO::FETCH_ASSOC) : false;
+}
+// $usersList = getUsers();
+// print_r($usersList);
+
+function login()
+{
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST["email"]) && isset($_POST["password"])) {
+      $loggedUser = $_POST["email"];
+      $loggedPass = $_POST["password"];
+
+      $users = getUsers();
+
+      foreach ($users as $user) {
+        if ($loggedUser == $user["email"] && $loggedPass == $user["contrasena"]) {
+          session_start();
+          $_SESSION['user'] = $loggedUser;
+          header('Location: index.php');
+          exit();
+        }
+        //echo "<script> alert ('*****************BIEN JOUE **************'); </script>";
+
+      }
+      echo "<script> alert ('Usuario o contraseña incorrectos! Intente de nuevo.'); </script>";
+    }
+  }
+}
+login();
 
 function getAdds()
 {
@@ -43,6 +77,14 @@ $anuncios = getAdds();
 <body>
 
   <div id="root"></div>
+
+  <form action="" method="post">
+    <label for="email" class="me-2">Usuario:</label>
+    <input type="text" name="email">
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password">
+    <button type="submit">Iniciar sesión</button>
+  </form>
 
   <div>
     <?php if ($anuncios)
