@@ -1,7 +1,20 @@
 import "./header.css";
 
-function Header() {
-  return <header className="header">This is the header</header>;
-}
+const Header = () => {
+  return (
+  <header className="header--container">
+    <div className="header--LogoTitle--container">
+        <img src="src/components/images/LogoArbol.png"/>
+        <h2 className="header--Title">TareaYa</h2>
+    </div>
+    <div className="header--Links--container">
+        <ul className="header--list">
+            <span className="background--addTask"><li>Añadir tarea</li></span>
+            <li>Categorias</li>
+            <li>Acceder/Registrarse</li>
+        </ul>
+    </div>
+  </header>
+)};
 
 export default Header;
