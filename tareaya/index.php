@@ -13,7 +13,12 @@ $database->connect();
 function getAdds()
 {
   global $database;
-  $stmt = $database->connect()->prepare('SELECT * FROM anuncios');
+  $stmt = $database->connect()->prepare(
+    'SELECT anuncios.*, anunciante.nombre AS nombre, categoria.categoria AS categoria, anunciante.movil AS movil, anunciante.email AS mail  
+    FROM anuncios
+    INNER JOIN anunciante ON anuncios.anuncianteID=anunciante.anuncianteID
+    INNER JOIN categoria ON  anuncios.categoriaID=categoria.categoriaID'
+  );
 
   return ($stmt->execute()) ? $stmt->fetchAll(PDO::FETCH_ASSOC) : false;
 }
@@ -42,8 +47,11 @@ $anuncios = getAdds();
   <div>
     <?php if ($anuncios)
       foreach ($anuncios as $anuncio) : ?>
-      <h3><?= $anuncio['anuncianteID']; ?></h3>
+      <h3><?= $anuncio['nombre']; ?></h3>
+      <h4><?= $anuncio['categoria']; ?></h4>
       <p><?= $anuncio['texto-anuncio']; ?></p>
+      <p><b>Móvil :</b> <?= $anuncio['movil'] ?></p>
+      <p><b>E-mail : </b> <?= $anuncio['mail'] ?></p>
     <?php endforeach; ?>
   </div>
   <script type="module" src="/src/main.jsx"></script>
