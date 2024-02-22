@@ -1,26 +1,42 @@
 ![logo](/tareaya/src/img/logo.png)  
-# tareaYa
+# TareaYa
+
+## Table of Contents
+
+- [Images](#images)
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Structure](#structure)
+- [Authors](#authors)
+
 
 ## Overview
 
-This project is a web application built using React for the front end and PHP for the backend. It facilitates the sales of services by administrators and purchases by users. The React framework is used for the front end, with react-router-dom for client-side routing, and the backend is implemented in PHP.
+This project involved the creation of multiple-page responsive website combining React with Vite, PHP, and MySQL. The site design, as specified by the client, TareaYa, a burgeoning name in the . These include a page featuring cards for all the actors to have featured in the series, a search function for these actors by name, a working contact form, and a hamburger menu in the mobile version. 
 
 ## Features
 
-- **User Authentication:** Secure user authentication and authorization for administrators and users.
+- **User Authentication:** Secure user authentication and authorization for service providers and users.
 - **Service Listings:** Display of available services with details for users to browse.
-- **Administrator Dashboard:** Management interface for administrators to add, edit, or remove services.
+- **Administrator Dashboard:** Management interface for service providers to add, edit, or remove services.
 - **User Purchase Flow:** Seamless flow for users to select and purchase services.
-- **Responsive Design:** The website is designed to be responsive and accessible on various devices.
 
-## Tech Stack
+## Technologies
 
-- **Trello:** We use Trello as our primary project and task management tool. It facilitates collaboration and monitoring the progress of the various stages of development.
-- **Figma:** We design and prototype our user interfaces with Figma. Real-time collaboration and feedback capabilities make Figma essential in our design process.
-- **React:** A JavaScript library for building user interfaces.
-- **React Router DOM:** Declarative routing for React.js.
-- **PHP:** A server-side scripting language.
-- **Visual Studio Code:** A lightweight, powerful code editor.
+- Trello - https://trello.com/b/yb7e80lJ/marketplace
+- Figma - https://www.figma.com/file/mrcxqYKR8c7BfvyEHVN33c/E-comerce-Hackathon?type=design&node-id=0-1&mode=design&t=v8SGwsdCqLRzktAb-0
+- Visual Studio Code
+- HTML
+- CSS
+- React - 18.2.0
+- React router DOM - 6.22.1
+- Node.js - 20.10.0
+- Vite - 5.1.0
+- MySQL - 8.3
+- PHP - 8.2.12
 
 
 ## Installation
@@ -53,10 +69,10 @@ This project is a web application built using React for the front end and PHP fo
 
 ## Usage
 
-- For administrators, navigate to the administrator dashboard to manage services.
-- For users, browse available services, select desired ones, and proceed with the purchase.
+- For service provides: navigate to their personal dashboard to upload and manage services listed, reply to user questions, and arrange service provisions
+- For users: browse available services, choose favorites, contact service providers, and contract service providers
 
-## Project Structure
+## Structure
 
 - **src/components:** Reusable React components.
 - **src/pages:** Top-level components representing different pages of the application.
@@ -69,23 +85,19 @@ This project is a web application built using React for the front end and PHP fo
 
 ## Authors
 
-[Laura A.] ()
-
-[Zohra ] (https://github.com/zohra-b)
+[Zohra Bellamine] (https://github.com/zohra-b)
 
 [Laura Artaza] (https://github.com/lolamindi)
 
-[Gabriela Irimia] ()
+[Gabriela Irimia] (https://github.com/GabriiCoder)
 
 [Sandra Medina] (https://github.com/sandra-medina-luque)
 
 [Ana Elisa Capellín] (https://github.com/elisacl)
 
+[Diana Alonso] (https://github.com/dialomt)
 
-## Contributing
+[Mar Domènech] (https://github.com/dmnchmr)
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make changes and commit them with descriptive commit messages.
-4. Push your changes to your fork.
-5. Submit a pull request.
+
+
